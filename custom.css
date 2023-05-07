@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    
+}
+body{
+    /* background-color: #3498db; */
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+#box{
+    width: 35%;
+    /* height: 400px; */
+    box-shadow: 0px 0px 32px 13px rgb(74, 59, 59) inset;
+    background-color: white;
+    border-radius: 15px;
+    padding: 15px;
+    /* box-shadow: 20px 7px 1px 5px rgb(13, 13, 249); */
+   padding-left: 30px;
+
+}
+.row{
+    width: 100%;
+    margin: 2rem;
+    margin-left: 0%;
+}
+/* .options:hover{
+    cursor: pointer;
+} */
+.row label,input{
+    cursor: pointer;
+}
+.row label{
+    
+    transition: all 1.5s;
+}
+.row label:hover{
+    color: rgb(126, 92, 92);
+    font-weight: bold;
+    font-size: 20px;
+}    
+.btn
+{
+    width: 100%;
+    padding: 5px;
+    border: 2px solid gray;
+    font-size: 20px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: black;
+    font-weight: bold;
+    box-shadow: 0px 0px 32px 3px rgb(74, 59, 59) inset;
+    transition: all 0.5s;
+}
+.btn:hover{
+    height: 40px;
+    font-size: 23px;
+}
+
+.ans-box{
+    width: 35%;
+    height: 200px;
+    border: 2px solid rgb(185, 137, 137);
+}
